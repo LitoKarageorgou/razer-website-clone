@@ -1,0 +1,244 @@
+:root {
+  --primary-color: #73e161;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #333;
+  color: #fff;
+  font-size: 1.1em;
+  line-height: 1.5;
+  text-align: center;
+  overflow-x: hidden;
+}
+
+p {
+  padding: 1em 0;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: var(--primary-color);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 70px;
+  box-shadow: 0 0 10px rgba(72, 255, 0, 0.8);
+}
+
+.logo {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Hero section */
+.hero-section {
+  min-height: 450px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.hero-section::after {
+  content: "";
+  position: absolute;
+  height: 100px;
+  bottom: -70px;
+  right: 0;
+  left: 0;
+  background-color: var(--primary-color);
+  transform: skewY(-4deg);
+  z-index: -1;
+  box-shadow: 3px 3px 10px;
+}
+
+.hero-image {
+  background: #333
+    url("https://assets3.razerzone.com/eYjVnOIhezgNUoP5Ji_c36rd98s=/1500x1000/https%3A%2F%2Fhybrismediaprod.blob.core.windows.net%2Fsys-master-phoenix-images-container%2Fhff%2Fh63%2F9081450889246%2FRazer-Naga-Left-Handed-Edition-Gallery0.jpg")
+    no-repeat center center/cover;
+  width: 100%;
+  height: 450px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+h1 {
+  margin-bottom: 0.4em;
+}
+
+.hero-button {
+  background-color: #333;
+  color: white;
+  padding: 1em 2em;
+  border: 1px solid var(--primary-color);
+  margin: 1em;
+  display: inline-block;
+}
+
+.hero-button:hover {
+  background: #52774c;
+  transform: scale(0.95);
+}
+
+/* Information Section */
+.info-section {
+  background-color: var(--primary-color);
+  color: #333;
+  height: 220px;
+}
+
+.content-wrap {
+  width: 65%;
+  margin: auto;
+}
+
+.info-section p {
+  column-count: 2;
+  column-gap: 2em;
+}
+
+.info-section h2 {
+  padding: 1em 0;
+  font-size: 1.5em;
+}
+
+/* Card section */
+.card-container {
+  background-color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  gap: 40px;
+  padding: 2em;
+}
+
+.card {
+  background-color: var(--primary-color);
+  color: #333;
+  height: 100px;
+  width: 370px;
+  height: 610px;
+  box-shadow: 4px 4px 15px black;
+}
+
+.card-image {
+  background: url("https://www.dexerto.fr/cdn-cgi/image/width=3840,quality=75,format=auto/https://editors.dexerto.fr/wp-content/uploads/sites/2/2021/12/16/razer-blackwidow-v3-pro.jpg")
+    no-repeat center center/cover;
+  height: 40%;
+  width: 100%;
+}
+
+.card h3 {
+  padding: 3em 0 2em 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.card p {
+  column-count: 1;
+  padding: 0 1.2em 0.4em 1.2em;
+}
+
+.card-button {
+  background-color: #333;
+  color: white;
+  padding: 1em 1.5em;
+  margin: 1em;
+  border: 1px solid var(--primary-color);
+  font-size: 1.1em;
+}
+
+/* Overview Section */
+.overview-section {
+  background-color: black;
+  color: white;
+  height: 270px;
+}
+
+.overview-wrap {
+  width: 65%;
+  margin: auto;
+}
+.overview-section h3 {
+  font-size: 1.5em;
+  padding: 2em 0;
+}
+
+.overview-section p {
+  padding: 0 1em;
+}
+
+/* Contact & Company Info */
+.contact-and-company-wrap {
+  height: 330px;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+}
+
+.contact {
+  background-color: var(--primary-color);
+  color:#333;
+  height: 100%;
+  width: 50%;
+}
+
+.company {
+  background-color: #333;
+  color: white;
+  height: 100%;
+  width: 50%;
+}
+
+.contact h3,
+.company h3 {
+  padding: 1em 0;
+  margin-top: 1em;
+  font-size: 1.5em;
+}
+
+.contact p,
+.company p {
+  padding: 1.1em 2em;
+}
+
+/* Footer */
+footer {
+  background-color: black;
+  padding: 1em 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+.copyright{
+  width: 50%;
+}
+
+.trademark {
+  width: 50%;
+}
+
+.trademark p {
+  color: var(--primary-color);
+}
