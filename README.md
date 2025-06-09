@@ -17,7 +17,7 @@ No JavaScript was used — the focus was on visual accuracy and layout structure
 
 The project was built based on the following reference image (provided by the instructor):
 
-[`Razer Reference`](./reference.png)
+[`Reference`](./reference.png)
 
 ## 📸 Screenshots (My Version)
 
@@ -30,5 +30,6 @@ The project was built based on the following reference image (provided by the in
 ## 👩‍💻 Author
 
 **[Lito Karageorgou]** – Junior Front-End Developer 
+
 📫 Contact: [lito.karageorgou@yahoo.com]  
 🔗 GitHub: [https://github.com/LitoKarageorgou?tab=repositories]
