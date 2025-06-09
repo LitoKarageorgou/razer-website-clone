@@ -17,11 +17,11 @@ No JavaScript was used — the focus was on visual accuracy and layout structure
 
 The project was built based on the following reference image (provided by the instructor):
 
-![Razer Reference](./reference.png)
+[`Razer Reference`](./reference.png)
 
 ## 📸 Screenshots (My Version)
 
-| ![My Screenshot](./my-screenshot.png) |
+| [My Screenshot](./my-screenshot.png) |
 
 ## 🚀 Live Demo
 
