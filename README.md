@@ -25,7 +25,8 @@ The project was built based on the following reference image (provided by the in
 
 ## 🚀 Live Demo
 
-[🔗 View Live Demo](https://razer-website-clone.netlify.app)
+[🔗 View Live Demo](https://razer-website-clone.netlify.app) (best viewed on desktop — recommended window width: 1920px)
+
 
 ## 👩‍💻 Author
 
