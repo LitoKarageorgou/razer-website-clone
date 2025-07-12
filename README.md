@@ -30,7 +30,7 @@ The project was built based on the following reference image (provided by the in
 
 ## 👩‍💻 Author
 
-**[Lito Karageorgou]** – Junior Front-End Developer 
+**[Lito Karageorgou]** – Front-End Developer 
 
 📫 Contact: [lito.karageorgou@yahoo.com]  
 🔗 GitHub: [https://github.com/LitoKarageorgou?tab=repositories]
