@@ -33,4 +33,4 @@ The project was built based on the following reference image (provided by the in
 **[Lito Karageorgou]** – Front-End Developer 
 
 📫 Contact: [lito.karageorgou@yahoo.com]  
-🔗 GitHub: [https://github.com/LitoKarageorgou?tab=repositories]
+🔗 LinkedIn: [https://www.linkedin.com/in/lito-karageorgou/]
